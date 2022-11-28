@@ -1,0 +1,15 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <input type="email" formControlName="email">
+  <button type="submit">Submit</button>
+</form>
+
+<!-- <div class="content" role="main">
+  test
+    <div class="card-container">
+      <button class="card card-small" (click)="captureImage()">
+        <span>Camera</span>
+      </button>
+    </div>
+    <img [src]="image" *ngIf="image" [style.width]="'300px'">
+
+  </div> -->
